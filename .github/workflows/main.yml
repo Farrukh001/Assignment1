@@ -34,5 +34,5 @@ jobs:
       - name: SURGE
         run: npm install -g surge
       - name: deploy
-        run: surge ./ qwdf.surge.sh --token ${{ secrets.TOKEN }}
+        run: surge ./ teeny-tiny-floor.surge.sh --token ${{ secrets.TOKEN }}
         
